@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D823FF92A8B4681004CE1BC /* KSPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 4D823FF82A8B4681004CE1BC /* KSPlayer */; };
 		4D88F9B92A4ACB8E00B5825E /* PlayerDemoIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88F9B82A4ACB8E00B5825E /* PlayerDemoIOSApp.swift */; };
 		4D88F9BB2A4ACB8E00B5825E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88F9BA2A4ACB8E00B5825E /* ContentView.swift */; };
 		4D88F9BD2A4ACB8F00B5825E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D88F9BC2A4ACB8F00B5825E /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D823FF92A8B4681004CE1BC /* KSPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = PlayerDemoIOS;
+			packageProductDependencies = (
+				4D823FF82A8B4681004CE1BC /* KSPlayer */,
+			);
 			productName = PlayerDemoIOS;
 			productReference = 4D88F9B52A4ACB8E00B5825E /* PlayerDemoIOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 4D88F9AC2A4ACB8E00B5825E;
+			packageReferences = (
+				4D823FF72A8B4681004CE1BC /* XCRemoteSwiftPackageReference "KSPlayer" */,
+			);
 			productRefGroup = 4D88F9B62A4ACB8E00B5825E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +347,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D823FF72A8B4681004CE1BC /* XCRemoteSwiftPackageReference "KSPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kingslay/KSPlayer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D823FF82A8B4681004CE1BC /* KSPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D823FF72A8B4681004CE1BC /* XCRemoteSwiftPackageReference "KSPlayer" */;
+			productName = KSPlayer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D88F9AD2A4ACB8E00B5825E /* Project object */;
 }

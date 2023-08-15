@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "ffmpegkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kingslay/FFmpegKit.git",
+      "state" : {
+        "revision" : "5193677fe45cb4ebe42f59fba11e881d40964676",
+        "version" : "6.0.1"
+      }
+    },
+    {
+      "identity" : "ksplayer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kingslay/KSPlayer",
+      "state" : {
+        "revision" : "d10eeae61a761c62aeb67555974579cfaecef137",
+        "version" : "2.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
