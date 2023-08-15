@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4D823FF92A8B4681004CE1BC /* KSPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 4D823FF82A8B4681004CE1BC /* KSPlayer */; };
+		4D8240022A8BA4A1004CE1BC /* Libharfbuzz-subset.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D823FFB2A8BA49E004CE1BC /* Libharfbuzz-subset.xcframework */; };
+		4D8240032A8BA4A1004CE1BC /* Libmpv.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D823FFC2A8BA49F004CE1BC /* Libmpv.xcframework */; };
+		4D8240042A8BA4A1004CE1BC /* Libavdevice.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D823FFD2A8BA4A0004CE1BC /* Libavdevice.xcframework */; };
+		4D8240052A8BA4A1004CE1BC /* Libass.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D823FFE2A8BA4A0004CE1BC /* Libass.xcframework */; };
+		4D8240062A8BA4A1004CE1BC /* Libfribidi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D823FFF2A8BA4A0004CE1BC /* Libfribidi.xcframework */; };
+		4D8240072A8BA4A1004CE1BC /* Libharfbuzz.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8240002A8BA4A1004CE1BC /* Libharfbuzz.xcframework */; };
+		4D8240082A8BA4A1004CE1BC /* Libfreetype.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8240012A8BA4A1004CE1BC /* Libfreetype.xcframework */; };
+		4D82400B2A8BA50F004CE1BC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D82400A2A8BA50F004CE1BC /* CoreAudio.framework */; };
+		4D82400D2A8BA526004CE1BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D82400C2A8BA525004CE1BC /* AVFoundation.framework */; };
+		4D8240102A8BA5D8004CE1BC /* MPVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D82400F2A8BA5D8004CE1BC /* MPVPlayerView.swift */; };
+		4D8240122A8BA5E8004CE1BC /* MPVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8240112A8BA5E8004CE1BC /* MPVViewController.swift */; };
+		4D8240142A8BA6C7004CE1BC /* MPVViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8240132A8BA6C7004CE1BC /* MPVViewPage.swift */; };
+		4D8240162A8BA823004CE1BC /* Libuchardet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8240152A8BA823004CE1BC /* Libuchardet.xcframework */; };
 		4D88F9B92A4ACB8E00B5825E /* PlayerDemoIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88F9B82A4ACB8E00B5825E /* PlayerDemoIOSApp.swift */; };
 		4D88F9BB2A4ACB8E00B5825E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88F9BA2A4ACB8E00B5825E /* ContentView.swift */; };
 		4D88F9BD2A4ACB8F00B5825E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D88F9BC2A4ACB8F00B5825E /* Assets.xcassets */; };
@@ -16,6 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D823FFB2A8BA49E004CE1BC /* Libharfbuzz-subset.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "Libharfbuzz-subset.xcframework"; sourceTree = "<group>"; };
+		4D823FFC2A8BA49F004CE1BC /* Libmpv.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libmpv.xcframework; sourceTree = "<group>"; };
+		4D823FFD2A8BA4A0004CE1BC /* Libavdevice.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libavdevice.xcframework; sourceTree = "<group>"; };
+		4D823FFE2A8BA4A0004CE1BC /* Libass.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libass.xcframework; sourceTree = "<group>"; };
+		4D823FFF2A8BA4A0004CE1BC /* Libfribidi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libfribidi.xcframework; sourceTree = "<group>"; };
+		4D8240002A8BA4A1004CE1BC /* Libharfbuzz.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libharfbuzz.xcframework; sourceTree = "<group>"; };
+		4D8240012A8BA4A1004CE1BC /* Libfreetype.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libfreetype.xcframework; sourceTree = "<group>"; };
+		4D82400A2A8BA50F004CE1BC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		4D82400C2A8BA525004CE1BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4D82400F2A8BA5D8004CE1BC /* MPVPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVPlayerView.swift; sourceTree = "<group>"; };
+		4D8240112A8BA5E8004CE1BC /* MPVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVViewController.swift; sourceTree = "<group>"; };
+		4D8240132A8BA6C7004CE1BC /* MPVViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVViewPage.swift; sourceTree = "<group>"; };
+		4D8240152A8BA823004CE1BC /* Libuchardet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libuchardet.xcframework; sourceTree = "<group>"; };
 		4D88F9B52A4ACB8E00B5825E /* PlayerDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayerDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D88F9B82A4ACB8E00B5825E /* PlayerDemoIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDemoIOSApp.swift; sourceTree = "<group>"; };
 		4D88F9BA2A4ACB8E00B5825E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,18 +55,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D82400B2A8BA50F004CE1BC /* CoreAudio.framework in Frameworks */,
+				4D8240042A8BA4A1004CE1BC /* Libavdevice.xcframework in Frameworks */,
+				4D8240162A8BA823004CE1BC /* Libuchardet.xcframework in Frameworks */,
+				4D82400D2A8BA526004CE1BC /* AVFoundation.framework in Frameworks */,
+				4D8240082A8BA4A1004CE1BC /* Libfreetype.xcframework in Frameworks */,
+				4D8240072A8BA4A1004CE1BC /* Libharfbuzz.xcframework in Frameworks */,
+				4D8240062A8BA4A1004CE1BC /* Libfribidi.xcframework in Frameworks */,
 				4D823FF92A8B4681004CE1BC /* KSPlayer in Frameworks */,
+				4D8240052A8BA4A1004CE1BC /* Libass.xcframework in Frameworks */,
+				4D8240032A8BA4A1004CE1BC /* Libmpv.xcframework in Frameworks */,
+				4D8240022A8BA4A1004CE1BC /* Libharfbuzz-subset.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D823FFA2A8BA411004CE1BC /* Frameworkds */ = {
+			isa = PBXGroup;
+			children = (
+				4D823FFE2A8BA4A0004CE1BC /* Libass.xcframework */,
+				4D823FFD2A8BA4A0004CE1BC /* Libavdevice.xcframework */,
+				4D8240012A8BA4A1004CE1BC /* Libfreetype.xcframework */,
+				4D823FFF2A8BA4A0004CE1BC /* Libfribidi.xcframework */,
+				4D823FFB2A8BA49E004CE1BC /* Libharfbuzz-subset.xcframework */,
+				4D8240002A8BA4A1004CE1BC /* Libharfbuzz.xcframework */,
+				4D823FFC2A8BA49F004CE1BC /* Libmpv.xcframework */,
+				4D8240152A8BA823004CE1BC /* Libuchardet.xcframework */,
+			);
+			path = Frameworkds;
+			sourceTree = "<group>";
+		};
+		4D8240092A8BA50E004CE1BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D82400C2A8BA525004CE1BC /* AVFoundation.framework */,
+				4D82400A2A8BA50F004CE1BC /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D82400E2A8BA5C0004CE1BC /* MPV */ = {
+			isa = PBXGroup;
+			children = (
+				4D82400F2A8BA5D8004CE1BC /* MPVPlayerView.swift */,
+				4D8240112A8BA5E8004CE1BC /* MPVViewController.swift */,
+			);
+			path = MPV;
+			sourceTree = "<group>";
+		};
 		4D88F9AC2A4ACB8E00B5825E = {
 			isa = PBXGroup;
 			children = (
+				4D823FFA2A8BA411004CE1BC /* Frameworkds */,
 				4D88F9B72A4ACB8E00B5825E /* PlayerDemoIOS */,
 				4D88F9B62A4ACB8E00B5825E /* Products */,
+				4D8240092A8BA50E004CE1BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,9 +126,11 @@
 		4D88F9B72A4ACB8E00B5825E /* PlayerDemoIOS */ = {
 			isa = PBXGroup;
 			children = (
+				4D82400E2A8BA5C0004CE1BC /* MPV */,
 				4D88F9B82A4ACB8E00B5825E /* PlayerDemoIOSApp.swift */,
 				4D88F9BA2A4ACB8E00B5825E /* ContentView.swift */,
 				4DB1A5302A8B614E009730ED /* KSVideoPage.swift */,
+				4D8240132A8BA6C7004CE1BC /* MPVViewPage.swift */,
 				4D88F9BC2A4ACB8F00B5825E /* Assets.xcassets */,
 				4D88F9BE2A4ACB8F00B5825E /* Preview Content */,
 			);
@@ -149,7 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DB1A5312A8B614E009730ED /* KSVideoPage.swift in Sources */,
+				4D8240102A8BA5D8004CE1BC /* MPVPlayerView.swift in Sources */,
 				4D88F9BB2A4ACB8E00B5825E /* ContentView.swift in Sources */,
+				4D8240142A8BA6C7004CE1BC /* MPVViewPage.swift in Sources */,
+				4D8240122A8BA5E8004CE1BC /* MPVViewController.swift in Sources */,
 				4D88F9B92A4ACB8E00B5825E /* PlayerDemoIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

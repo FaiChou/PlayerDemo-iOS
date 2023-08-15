@@ -48,7 +48,12 @@ struct ContentView: View {
             }
             .navigationTitle("PlayerDemo")
             .navigationDestination(for: URL.self) { url in
-                KSVideoPage(url: url)
+                switch selectedPlayer {
+                case .ksplayer:
+                    KSVideoPage(url: url)
+                case .mpv:
+                    MPVViewPage(url: url)
+                }
             }
         }
     }
