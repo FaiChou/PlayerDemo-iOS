@@ -16,8 +16,7 @@ struct PlayerDemoIOSApp: App {
         #endif
         KSOptions.firstPlayerType = KSMEPlayer.self
         KSOptions.secondPlayerType = KSMEPlayer.self
-        KSOptions.isSecondOpen = true
-        KSOptions.isAccurateSeek = true
+        KSOptions.isAutoPlay = true
     }
     var body: some Scene {
         WindowGroup {
