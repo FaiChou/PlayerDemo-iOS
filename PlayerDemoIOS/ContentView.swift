@@ -16,7 +16,8 @@ enum PlayerType: String, CaseIterable, Identifiable {
 struct ContentView: View {
     @State private var showFileImporter = false
     @State private var urls: [URL] = []
-    @State private var selectedPlayer: PlayerType = .ksplayer
+    @State private var selectedPlayer: PlayerType = .mpv
+    @State private var url: String = ""
     var body: some View {
         NavigationStack(path: $urls) {
             Form {
@@ -45,6 +46,12 @@ struct ContentView: View {
                         print(error)
                     }
                 }
+                TextField("http://", text: $url)
+                .onSubmit {
+                    let u = URL(string: url)!
+                    urls = [u]
+                }
+                .submitLabel(.go)
             }
             .navigationTitle("PlayerDemo")
             .navigationDestination(for: URL.self) { url in
