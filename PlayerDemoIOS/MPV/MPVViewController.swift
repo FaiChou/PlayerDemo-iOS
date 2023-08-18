@@ -190,6 +190,9 @@ class MPVViewController: GLKViewController {
         command("stop")
     }
     
+    var currentTime: CMTime {
+        CMTime.secondsInDefaultTimescale(mpv.isNil ? -1 : getDouble("time-pos"))
+    }
     var videoFormat: String {
         stringOrUnknown("video-format")
     }
