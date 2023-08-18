@@ -10,9 +10,11 @@ import SwiftUI
 
 struct MPVPlayerView: UIViewControllerRepresentable {
     let playUrl : URL?
+    let delegate: MPVDelegate
     func makeUIViewController(context: Context) -> some UIViewController {
         let mpv =  MPVViewController()
         mpv.playUrl = playUrl
+        delegate.mpvViewController = mpv
         return mpv
     }
     func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {

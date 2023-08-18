@@ -21,6 +21,7 @@
 		4D8240122A8BA5E8004CE1BC /* MPVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8240112A8BA5E8004CE1BC /* MPVViewController.swift */; };
 		4D8240142A8BA6C7004CE1BC /* MPVViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8240132A8BA6C7004CE1BC /* MPVViewPage.swift */; };
 		4D8240162A8BA823004CE1BC /* Libuchardet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8240152A8BA823004CE1BC /* Libuchardet.xcframework */; };
+		4D8240182A8E5000004CE1BC /* MPVDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8240172A8E5000004CE1BC /* MPVDelegate.swift */; };
 		4D88F9B92A4ACB8E00B5825E /* PlayerDemoIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88F9B82A4ACB8E00B5825E /* PlayerDemoIOSApp.swift */; };
 		4D88F9BB2A4ACB8E00B5825E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D88F9BA2A4ACB8E00B5825E /* ContentView.swift */; };
 		4D88F9BD2A4ACB8F00B5825E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D88F9BC2A4ACB8F00B5825E /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		4D8240112A8BA5E8004CE1BC /* MPVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVViewController.swift; sourceTree = "<group>"; };
 		4D8240132A8BA6C7004CE1BC /* MPVViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVViewPage.swift; sourceTree = "<group>"; };
 		4D8240152A8BA823004CE1BC /* Libuchardet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libuchardet.xcframework; sourceTree = "<group>"; };
+		4D8240172A8E5000004CE1BC /* MPVDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVDelegate.swift; sourceTree = "<group>"; };
 		4D88F9B52A4ACB8E00B5825E /* PlayerDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayerDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D88F9B82A4ACB8E00B5825E /* PlayerDemoIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDemoIOSApp.swift; sourceTree = "<group>"; };
 		4D88F9BA2A4ACB8E00B5825E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				4D82400F2A8BA5D8004CE1BC /* MPVPlayerView.swift */,
 				4D8240112A8BA5E8004CE1BC /* MPVViewController.swift */,
+				4D8240172A8E5000004CE1BC /* MPVDelegate.swift */,
 			);
 			path = MPV;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				4D88F9BB2A4ACB8E00B5825E /* ContentView.swift in Sources */,
 				4D8240142A8BA6C7004CE1BC /* MPVViewPage.swift in Sources */,
 				4D8240122A8BA5E8004CE1BC /* MPVViewController.swift in Sources */,
+				4D8240182A8E5000004CE1BC /* MPVDelegate.swift in Sources */,
 				4D88F9B92A4ACB8E00B5825E /* PlayerDemoIOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
