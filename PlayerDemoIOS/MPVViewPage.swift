@@ -16,10 +16,11 @@ struct MPVViewPage: View {
             MPVPlayerView(playUrl: url, delegate: delegate)
             Button {
                 if isPlay {
-                    delegate.play()
-                } else {
                     delegate.pause()
+                } else {
+                    delegate.play()
                 }
+                isPlay.toggle()
             } label: {
                 if isPlay {
                     Image(systemName: "pause.fill")
